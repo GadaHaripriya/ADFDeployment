@@ -42,9 +42,3 @@ jobs:
         parameters: 
           ${{ vars.ARM_TEMPLATE_PARAMETERS_FILE }}
           factoryName=${{ vars.ADF_FACTORYNAME }} 
-    
-    #Enable Triggers
-    - name: Run Post-deployment script
-      shell: pwsh
-      run: pwsh -command "./PrePostDeploymentScript.ps1 -armTemplate ${{ vars.ARM_TEMPLATE_FILE }} -ResourceGroupName ${{ vars.AZURE_RG }} -DataFactoryName ${{ vars.ADF_FACTORYNAME }} -predeployment $false -deleteDeployment $true"
-
