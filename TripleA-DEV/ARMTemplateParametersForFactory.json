@@ -9,7 +9,7 @@
 			"value": ""
 		},
 		"ls_source_properties_typeProperties_url": {
-			"value": "https://adlstripleapocdev.dfs.core.windows.net/"
+			"value": "https://adlstripleapoctest.dfs.core.windows.net/"
 		}
 	}
 }
