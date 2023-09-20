@@ -1,0 +1,9 @@
+{
+	"name": "TripleA-DEV",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e1c6322f-1f31-4daf-9230-1bf3f5ea3b74",
+		"tenantId": "865cc515-a530-4538-8ef8-072b7b2be759"
+	}
+}
