@@ -5,6 +5,12 @@
 		"factoryName": {
 			"value": "TripleA-DEV"
 		},
+		"ls_source_accountKey": {
+			"value": ""
+		},
+		"ls_source_properties_typeProperties_url": {
+			"value": "https://adlstripleapocdev.dfs.core.windows.net/"
+		},
 		"containerUri": {
 			"value": ""
 		},
